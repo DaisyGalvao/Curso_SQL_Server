@@ -1,0 +1,11 @@
+--CREATE DATABASE
+
+
+CREATE DATABASE db_Biblioteca
+ON PRIMARY (
+NAME=Biblioteca,
+FILENAME='C:\Curso_SQL\db_Biblioteca.MDF',
+SIZE=6MB,
+MAXSIZE=15MB,
+FILEGROWTH=10%
+)
